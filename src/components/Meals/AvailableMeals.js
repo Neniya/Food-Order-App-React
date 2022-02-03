@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from 'AvailableMeals.module.css';
+import classes from './AvailableMeals.module.css';
 
 const DUMMY_MEALS = [
   {
