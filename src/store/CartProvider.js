@@ -10,7 +10,9 @@ const CartProvider = () => {
     removeItem: removeItemFromCartHandler,
   };
   return (
-    <CartContext.Provider>{PaymentResponse.children}</CartContext.Provider>
+    <CartContext.Provider value={cartContext}>
+      {PaymentResponse.children}
+    </CartContext.Provider>
   );
 };
 
