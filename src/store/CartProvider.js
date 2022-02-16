@@ -30,7 +30,7 @@ const cartReducer = (state, action) => {
     return {
       items: updatedItems,
       totalAmount: newTotalAmount,
-    }; // TODO: need to be chanched - need to check if we have this item already
+    };
   }
   return defaultCartState;
 };
